@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <style></style>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content=''>
+    <meta name='author' content='Ali Coulibaly'>
+    <meta name='keywords' content=', , , , mot1, serie de mots'>
+    <title></title>
+    <link rel='stylesheet' href=''>
+</head>
+
+<body>
+
+    <h1>valeur finales</h1>
+    <h2>Examinez les programme suivant :</h2>
+    <pre>
+        var nb1 = number(prompt("Entrez nb1 :"));
+        var nb2 = number(prompt("Entrez nb2 :"));
+        var nb3 = number(prompt("Entrez nb3 :"));
+
+        if (nb1 > nb2){
+            nb1 = nb3 *2;
+        }else{
+            nb1++;
+            if(nb2 > nb3){
+                nb1 = nb1 + nb3 *3
+            }else{
+                nb1 = 0;
+                nb3 = nb3 * 2 + nb2;
+            }
+        }
+    </pre>
+
+    <h2>
+        Avant de l'executer, tentez de prévoir les valeurs finales des variables nb1, nb2 et nb3 en fonction de leur
+        valeur initial et completez le tableau ci-dessous.
+    </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Valeur initiales</th>
+                <th>Valeur finales nb1</th>
+                <th>Valeur finales nb2</th>
+                <th>Valeur finales nb3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>nb1 = nb2 = nb3 4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>nb1 = 4, nb2 = 3, nb3 = 2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>nb1 = 2, nb2 = 4, nb3 = 0</td>
+                <td>4</td>
+                <td>3</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src='09_valeur.js'></script>
+</body>
+
+</html>
